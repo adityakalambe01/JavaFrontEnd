@@ -1,0 +1,19 @@
+/*Descendent Selector*/
+#descendentSelector h1{
+    color: red;
+}
+
+/*Child Selector*/
+#childSelector>h1{
+    color: green;
+}
+
+/*Adjacent Sibling Selectors*/
+.adjacentSiblingSelectors+h2{
+    color: blue;
+}
+
+/*General Sibling Selector*/
+.generalSiblingSelectors~h2{
+    color: aqua;
+}

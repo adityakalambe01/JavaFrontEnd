@@ -1,0 +1,20 @@
+/*Tag Selector*/
+h1{
+    background-color: red;
+}
+
+/*Class Selector*/
+.classSelector{
+    background-color: blue;
+}
+
+/*Id Selector*/
+#idSelector{
+    background-color: orange;
+    color: white;
+}
+
+/*Universal Selector*/
+*{
+    color: green;
+}

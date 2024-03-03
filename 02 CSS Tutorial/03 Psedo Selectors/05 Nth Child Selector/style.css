@@ -1,0 +1,9 @@
+p:nth-child(1){
+    color: red;
+}
+.even:nth-child(even){
+    color: red;
+}
+.odd:nth-child(odd){
+    color: red;
+}
