@@ -1,0 +1,38 @@
+/*
+
+Header Navbar
+
+*/
+
+#pagesNav{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+#pagesNav li{
+    float: left;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+#pagesNav li a{
+    text-align: center;
+    text-decoration: none;
+    color: white !important;
+    padding: 14px 16px;
+    display: inline-block;
+}
+#pagesNav li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: red;
+}
+/*
+
+Main Body
+
+*/
