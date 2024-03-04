@@ -1,0 +1,12 @@
+.first{
+    background-color: red;
+    height: 100px;
+}
+.nav{
+    background-color: blue;
+    height: 100px;
+
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+}

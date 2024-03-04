@@ -1,0 +1,16 @@
+.first{
+    /*parent*/
+    background-color: red;
+    height: 100px;
+    position: relative;
+}
+.second{
+    /*child relationsjip*/
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    opacity: 0.5;
+
+    top: 0px;
+}

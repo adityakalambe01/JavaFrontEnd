@@ -1,0 +1,11 @@
+a[href^="http"]{
+    background-color: red;
+    color: white;
+}
+input[type="text"]{
+    background-color: green;
+    color: white;
+}
+input[type="email"]:focus{
+    background-color: yellow;
+}

@@ -1,0 +1,6 @@
+img{
+    float: inherit;
+}
+#cleared{
+    clear: left;
+}
