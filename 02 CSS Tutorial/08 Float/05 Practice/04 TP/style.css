@@ -20,6 +20,12 @@
     /*border: 2px solid white;*/
     float: left;
 }
-.col:hover{
+.col1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*border: 2px solid white;*/
+}
+.col1:hover{
     background-color: white;
 }
