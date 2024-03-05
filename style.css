@@ -8,6 +8,12 @@
 Header Navbar
 
 */
+#headerNavBar{
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
 
 #pagesNav{
     list-style-type: none;

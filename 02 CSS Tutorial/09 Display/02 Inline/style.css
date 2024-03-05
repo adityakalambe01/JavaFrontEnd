@@ -1,0 +1,10 @@
+div{
+    background-color: yellow;
+    height: 100px;
+    margin: 10px;
+    display: inline;
+}
+/*
+    height will not acquire by display inline by div element
+
+*/

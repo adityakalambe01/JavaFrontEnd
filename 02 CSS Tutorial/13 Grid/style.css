@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.grid-container{
+    /*width: 100%;*/
+    /*height: ;*/
+    /*background-color: aqua;*/
+    padding: 14px;
+
+    display: grid;
+    /*To get single column we use= grid-template-columns: 100px;*/
+    /*grid-template-columns: 100px;*/
+
+    /*To get multiple column we use= grid-auto-columns: 100px 100px ...;*/
+    /*grid-template-columns: 100px 100px;*/
+
+    /*To get equal width of all columns we specify = grid-template-columns: repeat(column in number, (number)fr)*/
+    grid-template-columns: repeat(3,1fr);
+
+    /*grid-template-rows: 20px;*/
+    /*grid-template-rows: 800px 800px;*/
+    /*grid-template-rows: repeat(2,100px);*/
+    grid-template-rows: minmax(10px, auto);
+
+    /*grid-column-gap: 20px;*/
+    /*grid-row-gap: 20px;*/
+    /*grid-gap: 20px;*/
+}
+.grid-item{
+    padding: 8px;
+    /*height: 100px;*/
+    /*background-color: red;*/
+    border: 1px solid black;
+
+}
