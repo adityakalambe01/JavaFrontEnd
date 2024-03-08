@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*margin-bottom: 50px;*/
+    height: 50px;
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.random{
+    height: 100px;
+    background-color: gray;
+    border: 10px solid white;
+}
+.random:nth-child(1){
+    margin-top: 90px;
+}
