@@ -156,44 +156,61 @@ function halloDiamondPattern(n){
     }
 }
 
-halloDiamondPattern(5);
+function getNumber(){
+    return 5;
+}
 
-console.log();console.log();console.log();
+function patternFunction(choice){
+    switch (choice){
+        case 1:
+            square(getNumber());
+            break;
+        case 2:
+            hallowSquare(getNumber());
+            break;
+        case 3:
+            rectangle(getNumber(),getNumber());
+            break;
+        case 4:
+            hallowRectangle(getNumber(),getNumber());
+            break;
+        case 5:
+            rightTriangle(getNumber());
+            break;
+        case 6:
+            hallowRightTriangle(getNumber());
+            break;
+        case 7:
+            leftTriangle(getNumber());
+            break;
+        case 8:
+            hallowLeftTriangle(getNumber());
+            break;
+        case 9:
+            diamondPattern(getNumber());
+            break;
+        case 10:
+            halloDiamondPattern(getNumber());
+            break;
+        case 11:
+            printStar(getNumber());
+            break;
+        default:
+            console.log("Invalid choice!");
+    }
+}
 
-diamondPattern(5);
+var showPatterns = () => {
+    var patternArray = ["Square", "Hallow Square", "Rectangle", "Hallow Rectangle", "Right Triangle", "Hallow Right Triangle", "Left Triangle", "Hallow Left Triangle", "Diamond Pattern", "Hallow Diamond Pattern", "Star Pattern"];
+    for (var index = 0 ; index < patternArray.length ; index++){
+        console.log(`${index+1} ${patternArray[index]}`)
+    }
+    console.log();
+    process.stdout.write("Enter your choice: ");
+}
 
-console.log();console.log();console.log();
-
-hallowLeftTriangle(5);
-
-console.log();console.log();console.log();
-
-leftTriangle(5);
-
-console.log();console.log();console.log();
-
-hallowRightTriangle(5);
-
-console.log();console.log();console.log();
-
-rightTriangle(2);
-
-console.log();console.log();console.log();
-
-square(5);
-
-console.log();console.log();console.log();
-
-printStar(5);
-
-console.log();console.log();console.log();
-
-rectangle(10,4);
-
-console.log();console.log();console.log();
-
-hallowSquare(5);
-
-console.log();console.log();console.log();
-
-hallowRectangle(10,3);
+do{
+    showPatterns();
+    console.log();console.log();
+    patternFunction(getNumber());
+}while (false);
