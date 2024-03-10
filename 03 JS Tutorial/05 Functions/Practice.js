@@ -103,9 +103,61 @@ function hallowLeftTriangle(nth){
     }
 }
 
+function diamondPattern(n){
 
+    for (var i = 0 ; i < n ; i++){
+        for(var j = n - i ; j > 0 ; j--){
+            process.stdout.write(" ");
+        }
+        for (j = 0 ; j <= i ; j++){
+            process.stdout.write("* ");
+        }
+        console.log();
+    }
+    for ( i = n ; i >= 0 ; i--){
+        for(var j = n - i ; j > 0 ; j--){
+            process.stdout.write(" ");
+        }
+        for (j = 0 ; j <= i ; j++){
+            process.stdout.write("* ");
+        }
+        console.log();
+    }
+}
 
+function halloDiamondPattern(n){
+    //upper
+    for (var i = 0 ; i < n ; i++){
+        for(var j = n - i ; j > 0 ; j--){
+            process.stdout.write(" ");
+        }
+        for (var j = 0 ; j <= i ; j++){
+            if (i===0 || j===0 || i===j){
+                process.stdout.write("* ");
+            }else{
+                process.stdout.write("  ");
+            }
+        }
+        console.log();
+    }
+    //lower
+    for (var i = n ; i >= 0 ; i--){
+        for(var j = n - i ; j > 0 ; j--){
+            process.stdout.write(" ");
+        }
+        for (var j = 0 ; j <= i ; j++){
+            if (i===0 || j===0 || i===j){
+                process.stdout.write("* ");
+            }else{
+                process.stdout.write("  ");
+            }
+        }
+        console.log();
+    }
+}
 
+// halloDiamondPattern(5);
+// diamondPattern(5);
 // hallowLeftTriangle(5);
 // leftTriangle(5);
 // hallowRightTriangle(5);
