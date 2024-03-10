@@ -156,14 +156,44 @@ function halloDiamondPattern(n){
     }
 }
 
-// halloDiamondPattern(5);
-// diamondPattern(5);
-// hallowLeftTriangle(5);
-// leftTriangle(5);
-// hallowRightTriangle(5);
-// rightTriangle(2);
-// square(5);
-// printStar(5);
-// rectangle(10,4);
-// hallowSquare(5);
-// hallowRectangle(10,3);
+halloDiamondPattern(5);
+
+console.log();console.log();console.log();
+
+diamondPattern(5);
+
+console.log();console.log();console.log();
+
+hallowLeftTriangle(5);
+
+console.log();console.log();console.log();
+
+leftTriangle(5);
+
+console.log();console.log();console.log();
+
+hallowRightTriangle(5);
+
+console.log();console.log();console.log();
+
+rightTriangle(2);
+
+console.log();console.log();console.log();
+
+square(5);
+
+console.log();console.log();console.log();
+
+printStar(5);
+
+console.log();console.log();console.log();
+
+rectangle(10,4);
+
+console.log();console.log();console.log();
+
+hallowSquare(5);
+
+console.log();console.log();console.log();
+
+hallowRectangle(10,3);
