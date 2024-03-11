@@ -209,8 +209,7 @@ var showPatterns = () => {
     process.stdout.write("Enter your choice: ");
 }
 
-do{
-    showPatterns();
-    console.log();console.log();
-    patternFunction(getNumber());
-}while (false);
+showPatterns();
+console.log();
+console.log();
+patternFunction(9);
