@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*NavBar*/
+.navbar{
+    /*padding: 14px;*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    /*opacity: 0.1;*/
+}
+ul li{
+    float: left;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: inline-block;
+}
+li a:hover{
+    background-color: #111;
+}
+/*Main Content*/
+.main{
+    /*margin-top: 45px;*/
+}
+.about-me, .tech-stack, .portfolio, .contact-us{
+    width: 100%;
+    height: 100vh;
+    /*border: 2px solid black;*/
+}
+.about-me{
+    background-color: #e16464;
+}
+
+#tech-stack-title, #portfolio-title, #contact-us-title{
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    color: white;
+    font-size: 25px;
+    font-weight: 999;
+    background-color: #333333;
+}
+
+.tech-stack{
+    background-color: yellow;
+}
+
+.portfolio{
+    background-color: green;
+}
+.contact-us{
+    background-color: blue;
+}
+
+
+
+
+/*Contact Us*/
+
+/*Footer*/
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 50px;
+}
+#footer-text{
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
