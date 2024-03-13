@@ -53,7 +53,7 @@ li a:hover{
 }
 
 .tech-stack{
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 .portfolio{
@@ -62,7 +62,26 @@ li a:hover{
 .contact-us{
     background-color: blue;
 }
-
+.logo{
+    float: left;
+}
+.logo{
+    width: 20%;
+    height: calc(100vh/5);
+    padding: 8px;
+}
+.html{
+    fill: orangered;
+}
+.css3{
+    fill: blue;
+}
+.js{
+    fill: yellow;
+}
+.angular{
+    fill: red;
+}
 
 
 
