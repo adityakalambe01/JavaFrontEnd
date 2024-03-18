@@ -212,4 +212,4 @@ var showPatterns = () => {
 showPatterns();
 console.log();
 console.log();
-patternFunction(9);
+patternFunction(8);
