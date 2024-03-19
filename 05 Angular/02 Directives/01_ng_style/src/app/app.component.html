@@ -1,0 +1,13 @@
+<p [ngStyle]="{'color': font_color, 'font-size.px': font_size}">
+  <strong>
+    This is modified using [ngStyle]
+  </strong>
+</p>
+
+<label for="fontcolor">Color</label>
+<input [(ngModel)]="font_color" id="fontcolor">
+
+<label for="fontsize">Size</label>
+<input [(ngModel)]="font_size" id="fontsize" type="number">
+
+
